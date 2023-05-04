@@ -5,4 +5,11 @@ const nextConfig = {
   },
 }
 
+module.exports = {
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60,
+  },
+};
+
 module.exports = nextConfig

@@ -37,27 +37,8 @@ body {
 }
 
 .swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-radius: 18px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 30rem;
-  height: auto;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 50%;
-}
-
-/* .swiper {
-  max-width: 25rem;
-  height: auto;
+  max-width: 20rem;
+  height: 40rem;
 }
 
 .swiper-slide {
@@ -105,4 +86,4 @@ body {
 
 .swiper-slide:nth-child(10n) {
   background-color: #fb7185;
-} */
+}

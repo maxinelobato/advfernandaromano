@@ -5,11 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
 
 // import required modules
-import { EffectCards, Autoplay, EffectCoverflow, Pagination } from "swiper";
+import { EffectCards, Autoplay } from "swiper";
 
 import QuotesIcon from "../icons/quotesicon"
 export function AboutWork(){
@@ -86,19 +84,10 @@ export function AboutWork(){
                     delay: 2500,
                     disableOnInteraction: false,
                   }}
-                  coverflowEffect={{
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                  }}
-                centeredSlides={true}
-                slidesPerView={"auto"}
-                effect={"coverflow"}
+                spaceBetween={30}
+                effect={"cards"}
                 grabCursor={true}
-                pagination={true}
-                modules={[EffectCoverflow, Autoplay, Pagination]}
+                modules={[EffectCards, Autoplay]}
                 className="mySwiper"
                >
                     <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -106,13 +95,12 @@ export function AboutWork(){
                             testimonials.map((item, idx) => (
                             <SwiperSlide>      
                                 <li key={idx}>
-                                        <div className="card space-y-3 p-4 image-full">
-                                            <figure>
-                                                <img src={item.img} loading="lazy" alt="Imagens" className="w-full rounded-lg"/>
-                                                </figure>
-                                            <div className="card-body">
-                                                <QuotesIcon/>
-                                            </div>
+                                <div className="card-body">
+                                        <QuotesIcon/>
+                                        <a href="https://www.instagram.com/feromano_adv/" className="text-white visited:text-black">@feromano_adv</a>
+                                    </div>
+                                        <div className="card space-y-3 p-4 ">
+                                            <figure><img src={item.img} loading="lazy" alt="Imagens" className="w-full rounded-lg"/></figure>
                                         </div>
                                 </li>
                                 </SwiperSlide>

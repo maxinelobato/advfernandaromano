@@ -9,11 +9,12 @@ export function Credibility(){
         trust: "Confiança",
         credility: "Credibilidade",
         reference: "Referência",
+        experience: "Experiência",
     }
 
     return(
         <>
-        <div className="pt-4 flex flex-wrap items-center justify-center gap-4 xl:justify-start">
+        <div className="pt-4 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
             <div className="flex items-center gap-x-2">
                 <CredibilityIcon/>
                 {features.credility}
@@ -26,7 +27,11 @@ export function Credibility(){
                 <TrustIcon/>
                 {features.trust}
                 </div>
+                <div className="flex items-center gap-x-2">
+                <RatingIcon/>
+                {features.experience}
                 </div>
+            </div>
             </>
     )
 }

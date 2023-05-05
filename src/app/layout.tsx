@@ -1,7 +1,12 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Gruppo } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const gruppo = Gruppo({ 
+  weight: ['400'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Fernanda Romano Advocacia - Especialista em Direito de Família',
@@ -15,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="dark">
-      <body className={inter.className}>{children}</body>
+      <body className={gruppo.className}>{children}</body>
     </html>
   )
 }

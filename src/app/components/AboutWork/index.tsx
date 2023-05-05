@@ -71,11 +71,11 @@ export function AboutWork(){
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                 <div className="max-w-5xl mx-auto">
-                <h1 className="text-4xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-5xl mb-4">
-                Ouça através das nossas mães    
+                <h1 className="text-4xl drop-shadow-lg text-white font-extrabold mx-auto md:text-5xl mb-4">
+                Veja nossas mulheres e o quanto    
             </h1>
             <span className="before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl before:bg-gradient-to-r from-rose-700 to-rose-950 relative inline-block">
-        <span className="relative text-white">o quanto conhecemos a dor delas</span>
+        <span className="relative text-white">conhecemos a dor de uma mãe solo</span>
         </span>
             </div>
                 <div className="mt-12">
@@ -100,7 +100,7 @@ export function AboutWork(){
                                         <a href="https://www.instagram.com/feromano_adv/" className="text-white font-bold">@feromano_adv</a>
                                     </div>
                                         <div className="card w-72 space-y-0 p-2 pb-10">
-                                            <figure><img src={item.img} loading="lazy" alt="Imagens" className="w-full rounded-lg"/></figure>
+                                            <figure><img src={item.img} width={600} height={600} loading="lazy" alt="Imagens" className="w-full rounded-lg"/></figure>
                                         </div>
                                 </li>
                                 </SwiperSlide>

@@ -1,11 +1,13 @@
+import { AboutWork } from "../AboutWork";
 import { ButtonHero } from "../ButtonHero";
+import { CardsSpecialty } from "../CardsSpecialty";
 import { Credibility } from "../Credibility";
 import { Navbar } from "../Navbar";
 export function Hero(){
     return(
     <>
-    <div className="hero min-h-min bg-[url('/img/fernandaromano.jpg')] md:bg-['/img/fernandaromano2.jpg'] xl:bg-[url('/img/fernandaromano2.jpg')] loading">
-        <div className="hero-overlay bg-gradient-to-r from-[#2F1813]/30 bg-opacity-25">
+<div className="hero min-h-min bg-[url('/img/fernandaromano.webp')] md:bg-['/img/fernandaromano2.webp'] xl:bg-[url('/img/fernandaromano2.webp')] loading">
+        <div className="hero-overlay bg-gradient-to-r from-rose-400/60 bg-opacity-25">
     <section className="py-16 mt-36">
             <div className="max-w-screen-xl mx-auto px-4 gap-x-12 justify-between md:flex md:px-8">
                 <div className="space-y-4 max-w-xl">
@@ -27,6 +29,7 @@ export function Hero(){
         </section>
   </div>
 </div>
+<CardsSpecialty/>
 </>
     )
 }

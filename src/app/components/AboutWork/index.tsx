@@ -88,18 +88,18 @@ export function AboutWork(){
                 effect={"cards"}
                 grabCursor={true}
                 modules={[EffectCards, Autoplay]}
-                className="mySwiper"
+            
                >
                     <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             testimonials.map((item, idx) => (
                             <SwiperSlide>      
-                                <li key={idx}>
+                                <li key={idx} className="space-y-3 p-4 rounded-xl">
                                 <div className="card-body">
                                         <QuotesIcon/>
-                                        <a href="https://www.instagram.com/feromano_adv/" className="text-white visited:text-black">@feromano_adv</a>
+                                        <a href="https://www.instagram.com/feromano_adv/" className="text-white font-bold">@feromano_adv</a>
                                     </div>
-                                        <div className="card space-y-3 p-4 ">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure><img src={item.img} loading="lazy" alt="Imagens" className="w-full rounded-lg"/></figure>
                                         </div>
                                 </li>

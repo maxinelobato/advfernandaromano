@@ -33,19 +33,21 @@ export function CardsSpecialty(){
         <>
         <div className="hero-overlay bg-gradient-to-tr from-rose-400 to-rose-950">
             <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-screen-lg mx-auto px-4 text-center text-gray-600 md:px-8">
+            <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-5xl mb-4">
                 Qual das especialidades   
             </h1>
-            <span className="p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl rounded-2xl bg-gradient-to-r from-rose-700 to-rose-950">você precisa de ajuda?</span>
+            <span className="before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl before:bg-gradient-to-r from-rose-700 to-rose-950 relative inline-block">
+                <span className="relative text-white">você precisa de ajuda?</span>
+                </span>
                 </div>
                 <div className="mt-12">
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             features.map((item, idx) => (
-                                <a href="#" className="group rounded-xl ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-rose-950 hover:transition-all ease-out duration-300">
-                                <li key={idx} className="space-y-3 p-4 rounded-xl backdrop-blur-sm bg-rose-950/30 drop-shadow-lg">
+                                <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all ease-out duration-300">
+                                <li key={idx} className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
                                     </div>
@@ -53,15 +55,15 @@ export function CardsSpecialty(){
                                         {item.title}
                                     </h4>
                                 </li>
-                                </a>
+                            </a>
                             ))
                         }
                     </ul>
                 </div>
                 <div className="mt-6">
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-2">
-                    <a href="#" className="group rounded-xl ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-rose-950 hover:transition-all ease-out duration-300">
-                                <li className="space-y-3 p-4 rounded-xl backdrop-blur-sm bg-rose-950/30 drop-shadow-lg">
+                    <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all ease-out duration-300">
+                                <li className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
                                     </div>
@@ -70,8 +72,8 @@ export function CardsSpecialty(){
                                     </h4>
                                 </li>
                                 </a>
-                                <a href="#" className="group rounded-xl ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-rose-950 hover:transition-all ease-out duration-300">
-                                <li className="space-y-3 p-4 rounded-xl backdrop-blur-sm bg-rose-950/30 drop-shadow-lg">
+                                <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all ease-out duration-300">
+                                <li className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
                                     </div>

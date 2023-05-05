@@ -35,7 +35,7 @@ export function CardsSpecialty(){
             <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
             <div className="max-w-5xl mx-auto">
-                <h1 className="text-4xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-5xl mb-4">
+            <h1 className="text-4xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-5xl mb-4">
                 Qual das especialidades   
             </h1>
             <span className="p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl rounded-2xl bg-gradient-to-r from-rose-700 to-rose-950">você precisa de ajuda?</span>

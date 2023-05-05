@@ -1,5 +1,6 @@
 import { AboutFernanda } from "../AboutFernanda"
 import { AboutWork } from "../AboutWork"
+import { Faq } from "../Faq"
 import LawIcon from "../icons/lawicon"
 export function CardsSpecialty(){
 
@@ -89,6 +90,7 @@ export function CardsSpecialty(){
         </section>
         <AboutWork/>
         <AboutFernanda/>
+        <Faq/>
         </div>
     </>
     )

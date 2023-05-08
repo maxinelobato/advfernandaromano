@@ -1,40 +1,36 @@
-import { AboutFernanda } from "../AboutFernanda"
-import { AboutWork } from "../AboutWork"
-import { Faq } from "../Faq"
 import LawIcon from "../icons/lawicon"
 export function CardsSpecialty(){
 
     const features = [
         {
             title: "Pensão Alimentícia",
-            href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20'
         },
         {
             title: "Regulamentação de Guarda e Visitas",
-            href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20'
         },
         {
             title: "Divórcio",
-            href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20%20meu%20Divórcio.%20Podemos%20conversar%3F%20'
         },
         {
             title: "Reconhecimento de União Estável",
-            href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Reconhecimento%20de%20União%20Estável.%20Podemos%20conversar%3F%20'
         },
         {
             title: "Partilha de Bens",
-            href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Partilha%20de%20Bens.%20Podemos%20conversar%3F%20'
         },
         {
             title: "Visitas Assistidas",
-              href: '#'
+            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Visitas%20Assistidas.%20Podemos%20conversar%3F%20'
         },
     ]
 
     return(
         <>
-        <div className="hero-overlay bg-gradient-to-tr from-rose-400 to-rose-950">
-            <section className="py-14">
+        <section className="py-14">
             <div className="max-w-screen-lg mx-auto px-4 text-center md:px-8">
             <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl drop-shadow-lg text-white font-extrabold mx-auto md:text-5xl mb-4">
@@ -48,7 +44,7 @@ export function CardsSpecialty(){
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             features.map((item, idx) => (
-                                <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
+                                <a href={item.href} target="_blank" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
                                 <li key={idx} className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
@@ -64,7 +60,7 @@ export function CardsSpecialty(){
                 </div>
                 <div className="mt-6">
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-2">
-                    <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Adoção.%20Podemos%20conversar%3F%20" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
                                 <li className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
@@ -74,7 +70,7 @@ export function CardsSpecialty(){
                                     </h4>
                                 </li>
                                 </a>
-                                <a href="#" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Revisão%20da%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
                                 <li className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>
@@ -88,10 +84,6 @@ export function CardsSpecialty(){
                 </div>
             </div>
         </section>
-        <AboutWork/>
-        <AboutFernanda/>
-        <Faq/>
-        </div>
     </>
     )
 }

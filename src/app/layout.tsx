@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import './globals.css'
 import { Gruppo } from 'next/font/google'
 
@@ -19,8 +20,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="dark">
-      <body className={gruppo.className}>{children}</body>
+    <html lang="pt-br" className={gruppo.className}>
+       <Suspense>
+      <body className='hero-overlay bg-gradient-to-tr from-rose-400 to-rose-950'>{children}</body>
+      </Suspense>
     </html>
   )
 }

@@ -12,7 +12,7 @@ export function AboutFernanda(){
     const stats = [
         {
             data: "+ de 2 mil",
-            title: "Mães solos ajudadas"
+            title: "Mães ajudadas"
         },
         {
             data: "130 Mil",
@@ -20,11 +20,11 @@ export function AboutFernanda(){
         },
         {
             data: "+ de 40",
-            title: "Mães solos ajudadas todos os meses"
+            title: "Mães ajudadas todos os meses"
         },
         {
             data: "+ de 2 mil",
-            title: "Mães solos satisfeitas"
+            title: "Mães satisfeitas"
         },
     ]
 

@@ -75,7 +75,7 @@ export function AboutWork(){
                 Veja nossas mulheres e o quanto    
             </h1>
             <span className="before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl before:bg-gradient-to-r from-rose-700 to-rose-950 relative inline-block">
-        <span className="relative text-white">conhecemos a dor de uma mãe solo</span>
+        <span className="relative text-white">conhecemos a dor de uma Mãe solo</span>
         </span>
             </div>
                 <div className="mt-12">

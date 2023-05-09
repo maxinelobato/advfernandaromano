@@ -37,14 +37,16 @@ export function Footer(){
                     OAB - 0000000
                     </p>
                 </div>
-                <div className="mt-10 py-10 text-center max-w-screen-xl mx-auto border-t items-center justify-between sm:flex">
+                <div className="mt-10 py-10 text-center border-t md:text-center">
                     <p className="text-white">© 2023 FR Advocacia. Todos os Direitos Reservados.</p>
-                    <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
-                        <li className="text-gray-500">
+                </div>
+                <div className="py-4 text-center md:text-center">
+                <ul className="mx-auto items-center gap-4 mt-4 sm:text-sm sm:mt-0">
+                        <li className="text-gray-400 mb-2">
                             Desenvolvido por
                         </li>
                         <li>
-                            <Image src="/signaturelogo.webp" alt="Logo Signature" width={60} height={60} quality={75} loading="lazy" />
+                        <Image src="/signaturemidia.svg" alt="Logo Signature" width={60} height={60} quality={75} loading="lazy" className="w-12 mx-auto sm:mx-auto" />
                         </li>
                     </ul>
                 </div>

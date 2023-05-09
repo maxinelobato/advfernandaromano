@@ -1,5 +1,4 @@
 'use client'
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,6 +9,7 @@ import "swiper/css/effect-cards";
 import { EffectCards, Autoplay } from "swiper";
 
 import QuotesIcon from "../icons/quotesicon"
+import Image from "next/image";
 export function AboutWork(){
 
     const testimonials = [
@@ -79,17 +79,15 @@ export function AboutWork(){
         </span>
             </div>
                 <div className="mt-12">
-                <Swiper
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-                spaceBetween={30}
-                effect={"cards"}
-                grabCursor={true}
-                modules={[EffectCards, Autoplay]}
-            
-               >
+                    <Swiper
+                        autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                        }}
+                        spaceBetween={30}
+                        effect={"cards"}
+                        grabCursor={true}
+                        modules={[EffectCards, Autoplay]}>
                     <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             testimonials.map((item, idx) => (
@@ -97,13 +95,14 @@ export function AboutWork(){
                                 <li key={idx} className="space-y-3 p-4 rounded-xl">
                                 <div className="card-body">
                                         <QuotesIcon/>
-                                        <a href="https://www.instagram.com/feromano_adv/" className="text-white font-bold">@feromano_adv</a>
                                     </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
-                                            <figure><img src={item.img} width={600} height={600} loading="lazy" alt="Imagens" className="w-full rounded-lg"/></figure>
-                                        </div>
+                                <div className="card w-72 space-y-0 p-2 pb-10">
+                                    <figure>
+                                        <Image src={item.img} width={600} height={600} loading="lazy" quality={75} alt="Imagens" className="w-full rounded-lg"/>
+                                    </figure>
+                                </div>
                                 </li>
-                                </SwiperSlide>
+                            </SwiperSlide>
                             ))
                         }
                     </ul>

@@ -35,8 +35,8 @@ export function Faq(){
         <span className="relative text-white">as mães, mais perguntam</span>
         </span>
         </div>
-    <div className="mt-14 max-w-2xl mx-auto">
-    <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
+        <div className="mt-14 max-w-2xl mx-auto">
+          <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
     <summary className="text-xl text-white font-semibold select-none">
       Pesgunta 1
     </summary>
@@ -44,7 +44,7 @@ export function Faq(){
       <p>Pesgunta 1</p>
     </div>
   </details>
-  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
+  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2">
     <summary className="text-xl text-white font-semibold select-none">
       Pesgunta 2
     </summary>
@@ -52,7 +52,7 @@ export function Faq(){
       <p>Pesgunta 2</p>
     </div>
   </details>
-  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
+  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2">
     <summary className="text-xl text-white font-semibold select-none">
       Pesgunta 3
     </summary>
@@ -60,7 +60,7 @@ export function Faq(){
       <p>Pesgunta 3</p>
     </div>
   </details>
-  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
+  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2">
     <summary className="text-xl text-white font-semibold select-none">
       Pesgunta 4
     </summary>
@@ -68,7 +68,7 @@ export function Faq(){
       <p>Pesgunta 4</p>
     </div>
   </details>
-  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2" open>
+  <details className="mt-2 bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-2">
     <summary className="text-xl text-white font-semibold select-none">
       Pesgunta 5
     </summary>
@@ -77,15 +77,6 @@ export function Faq(){
     </div>
   </details>
 </div>
-        {/* <div tabIndex={1} className="collapse collapse-arrow bg-rose-950 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
-        <input type="checkbox"/>
-        <div className="collapse-title text-xl text-white font-bold">
-            Pesguntas 1
-            </div>
-            <div className="collapse-content">
-                <p className="text-white text-lg">Testando</p>
-                </div>
-            </div> */}
         </div>
 </section>
         </>

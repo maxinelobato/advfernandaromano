@@ -39,6 +39,7 @@ body {
 .swiper {
   max-width: 20rem;
   height: 40rem;
+  overflow: hidden;
 }
 
 .swiper-slide {

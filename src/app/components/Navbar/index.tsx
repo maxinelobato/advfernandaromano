@@ -5,13 +5,13 @@ export function Navbar(){
     <div className="navbar mb-4">
     <div className="flex justify-start">
   <div className="flex-1">
-    <a href="/" className="normal-case text-xl">
+    <a href="/">
       <Image
             src="/img/logonavbar.svg" 
             width={200} 
-            height={100}
+            height={200}
             loading="eager"
-            quality={75}
+            quality={100}
             alt="Fernanda Logo"
             style={{
                 maxWidth: '100%',

@@ -34,7 +34,7 @@ export function Footer(){
                     Fernanda Romano Advocacia - Especialista em Direito de Família
                     </p>
                     <p>
-                    OAB - 0000000
+                    OAB - 119723
                     </p>
                 </div>
                 <div className="mt-10 py-10 text-center border-t md:text-center">

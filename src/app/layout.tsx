@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={gruppo.className}>
        <Suspense>
-      <body className='hero-overlay bg-gradient-to-tr from-rose-400 to-rose-950'>{children}</body>
+      <body className='bg-gradient-to-tr from-rose-400 to-rose-950'>{children}</body>
       </Suspense>
     </html>
   )

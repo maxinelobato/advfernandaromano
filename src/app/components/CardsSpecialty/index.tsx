@@ -3,28 +3,24 @@ export function CardsSpecialty(){
 
     const features = [
         {
-            title: "Pensão Alimentícia",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20'
+            title: "",
+            href: ''
         },
         {
-            title: "Regulamentação de Guarda e Visitas",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20'
+            title: "",
+            href: ''
         },
         {
-            title: "Divórcio",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20%20meu%20Divórcio.%20Podemos%20conversar%3F%20'
+            title: "",
+            href: ''
         },
         {
-            title: "Reconhecimento de União Estável",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Reconhecimento%20de%20União%20Estável.%20Podemos%20conversar%3F%20'
+            title: "",
+            href: ''
         },
         {
-            title: "Partilha de Bens",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Partilha%20de%20Bens.%20Podemos%20conversar%3F%20'
-        },
-        {
-            title: "Visitas Assistidas",
-            href: 'https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Visitas%20Assistidas.%20Podemos%20conversar%3F%20'
+            title: "",
+            href: ''
         },
     ]
 
@@ -36,33 +32,79 @@ export function CardsSpecialty(){
             <h1 className="text-4xl drop-shadow-lg text-white font-extrabold mx-auto md:text-5xl mb-4">
                 Qual das especialidades   
             </h1>
-            <span className="before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl before:bg-gradient-to-r from-rose-700 to-rose-950 relative inline-block">
+            <span className="before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-white font-extrabold mx-auto md:text-4xl before:bg-gradient-to-r from-rose-700 to-rose-950 relative inline-block">
                 <span className="relative text-white">você precisa de ajuda?</span>
                 </span>
                 </div>
                 <div className="mt-12">
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
-                        {
-                            features.map((item, idx) => (
-                                <a href={item.href} target="_blank" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
-                                <li key={idx} className="card">
-                                    <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
                                         <LawIcon/>
                                     </div>
-                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">
-                                        {item.title}
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Pensão Alimentícia
                                     </h4>
                                 </li>
                             </a>
-                            ))
-                        }
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
+                                        <LawIcon/>
+                                    </div>
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Regulamentação de Guarda e Visitas
+                                    </h4>
+                                </li>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20%20meu%20Divórcio.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
+                                        <LawIcon/>
+                                    </div>
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Divórcio
+                                    </h4>
+                                </li>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Reconhecimento%20de%20União%20Estável.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
+                                        <LawIcon/>
+                                    </div>
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Reconhecimento de União Estável
+                                    </h4>
+                                </li>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Partilha%20de%20Bens.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
+                                        <LawIcon/>
+                                    </div>
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Partilha de Bens
+                                    </h4>
+                                </li>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Visitas%20Assistidas.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
+                                <li className="card">
+                                <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
+                                        <LawIcon/>
+                                    </div>
+                                    <h4 className="text-lg sm:text-2xl text-white font-semibold">        
+                                    Visitas Assistidas
+                                    </h4>
+                                </li>
+                            </a>
                     </ul>
                 </div>
                 <div className="mt-6">
                     <ul className="grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-2">
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Adoção.%20Podemos%20conversar%3F%20" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Adoção.%20Podemos%20conversar%3F%20" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
                                 <li className="card">
-                                    <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
+                                    <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
                                         <LawIcon/>
                                     </div>
                                     <h4 className="text-lg sm:text-2xl text-white font-semibold">
@@ -70,7 +112,7 @@ export function CardsSpecialty(){
                                     </h4>
                                 </li>
                                 </a>
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Revisão%20da%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20" className="group backdrop-blur-sm space-y-3 p-4 rounded-xl bg-rose-950 ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white">
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Revisão%20da%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300">
                                 <li className="card">
                                     <div className="w-12 h-12 mx-auto rounded-full flex items-center justify-center">
                                         <LawIcon/>

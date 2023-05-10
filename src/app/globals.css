@@ -7,10 +7,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
-  --swiper-pagination-color: #4c0519;
-  --swiper-pagination-bullet-size: 15px;
-  --swiper-pagination-bullet-width: 15px;
-  --swiper-pagination-bullet-height: 15px;
+  --swiper-pagination-color: #ffff;
+  --swiper-navigation-color: #000;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
   --swiper-pagination-bullet-inactive-color: #000;
   --swiper-pagination-bullet-inactive-opacity: 0.5;
   --swiper-pagination-bullet-opacity: 8;
@@ -39,7 +40,6 @@ body {
 .swiper {
   max-width: 20rem;
   height: 40rem;
-  overflow: hidden;
 }
 
 .swiper-slide {
@@ -47,18 +47,6 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-}
-
-@media screen and (min-width: 640px) {
-  .swiper-container {
-    width: 640px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .swiper-container {
-    width: 768px;
-  }
 }
 
 .swiper-slide:nth-child(1n) {

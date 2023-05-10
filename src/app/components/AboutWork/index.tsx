@@ -40,13 +40,13 @@ export function AboutWork() {
                                 clickable: true
                             }}
                             modules={[EffectCube, Pagination, Autoplay]}>
-                            <ul className="grid items-center gap-6 sm:grid-cols-1 lg:grid-cols-1">
+                            <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                    <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente1.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -54,11 +54,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                    <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente2.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -66,11 +66,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente3.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -78,11 +78,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente4.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -90,11 +90,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente5.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -102,11 +102,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente6.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -114,11 +114,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente7.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -126,11 +126,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente8.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -138,11 +138,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente9.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -150,11 +150,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente10.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -162,11 +162,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente11.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -174,11 +174,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente12.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -186,11 +186,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente13.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -198,11 +198,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente14.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -210,11 +210,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente15.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -222,11 +222,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente16.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>
@@ -234,11 +234,11 @@ export function AboutWork() {
                                     </li>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <li className="space-y-3 p-1 rounded-xl">
-                                        <div className="card-body">
+                                <li className="space-y-3 mx-auto p-4 rounded-xl">
+                                        <div className="card w-72 space-y-0 p-2 pb-10">
+                                        <div className="pb-4">
                                             <QuotesIcon />
                                         </div>
-                                        <div className="card w-72 space-y-0 p-2 pb-10">
                                             <figure>
                                                 <Image src="/img/clientes/cliente17.webp" loading='lazy' width={600} height={600} quality={75} alt="Imagens" className="w-full rounded-lg" />
                                             </figure>

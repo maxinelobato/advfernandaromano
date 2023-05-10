@@ -38,8 +38,9 @@ body {
 }
 
 .swiper {
-  max-width: 20rem;
+  width: 20rem;
   height: 40rem;
+  align-items: center;
 }
 
 .swiper-slide {

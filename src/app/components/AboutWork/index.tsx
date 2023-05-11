@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 import QuotesIcon from "../icons/quotesicon"
 import Image from "next/image";
-export function AboutWork() {
+export default function AboutWork() {
     return (
         <>
             <section className="py-14">

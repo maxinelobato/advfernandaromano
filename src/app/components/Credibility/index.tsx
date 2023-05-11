@@ -3,7 +3,7 @@ import RatingIcon from "../icons/ratingicon"
 import ReferenceIcon from "../icons/referenceicon"
 import TrustIcon from "../icons/trusticon"
 
-export function Credibility(){
+export default function Credibility(){
 
     const features = {
         trust: "Confiança",

@@ -1,5 +1,5 @@
 import LawIcon from "../icons/lawicon"
-export function CardsSpecialty() {
+export default function CardsSpecialty() {
     return (
         <>
             <section className="py-14">
@@ -24,7 +24,7 @@ export function CardsSpecialty() {
                                     </h4>
                                 </li>
                             </a>
-                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:after:content-['_↗'] hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300">
+                            <a href="https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20" target="_blank" className="group bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:after:content-['_'] hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300">
                                 <li className="card">
                                     <div className="w-12 h-12 mx-auto text-white rounded-full flex items-center justify-center hover:text-white">
                                         <LawIcon />

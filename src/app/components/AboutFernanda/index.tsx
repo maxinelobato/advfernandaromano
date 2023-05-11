@@ -7,7 +7,7 @@ const caveat = Caveat({
     display: 'swap',
   })
 
-export function AboutFernanda(){
+export default function AboutFernanda(){
 
     const stats = [
         {

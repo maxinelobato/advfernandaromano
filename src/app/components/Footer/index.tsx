@@ -1,26 +1,6 @@
 import Image from "next/image"
 
-export function Footer(){
-
-    const footerNavs = [
-        {
-            href: 'javascript:void()',
-            name: 'Terms'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'License'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'Privacy'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'About us'
-        }
-    ]
-
+export default function Footer(){
     return(
         <>
         <div className="bg-rose-950">

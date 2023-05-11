@@ -1,6 +1,6 @@
 import LawIcon from "../icons/lawicon";
 
-export function ButtonFloat(){
+export default function ButtonFloat(){
     return(
         <>
         <div className="items-center justify-center mx-auto">

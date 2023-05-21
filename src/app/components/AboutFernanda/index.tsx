@@ -30,7 +30,7 @@ export default function AboutFernanda () {
 
   return (
     <>
-      <div className='bg-gradient-to-tl from-rose-800 to-white'>
+      <div className='bg-gradient-to-t from-rose-900 to-rose-200'>
         <section className='py-14'>
           <div className='max-w-screen-xl mx-auto px-4 text-white text-center sm:text-left text-2xl font-bold gap-x-12 items-start justify-between lg:flex md:px-8'>
             <div className='sm:hidden lg:block lg:max-w-xl'>
@@ -38,6 +38,8 @@ export default function AboutFernanda () {
                 src='/img/fernandaromano3.webp'
                 width={600}
                 height={600}
+                loading='lazy'
+                quality={100}
                 className='rounded-xl shadow-xl drop-shadow-xl'
                 alt='About Fernanda'
               />
@@ -52,7 +54,7 @@ export default function AboutFernanda () {
                     em todo o Brasil e Exterior de forma totalmente Online!
                   </span>
                 </span>
-                <p className='text-lg text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto mt-3'>
+                <p className='text-lg text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto mt-6'>
                   Através de um atendimento humanizado e especializado no{' '}
                   <span className='text-rose-950 text-xl uppercase font-bold'>
                     Direito das Famílias e Direito para Mulheres!
@@ -73,7 +75,7 @@ export default function AboutFernanda () {
                   satisfação dos nossos clientes em resolver seus conflitos
                   através da lei.
                 </p>
-                <div className='flex-none mt-2 text-center sm:text-right'>
+                <div className='flex-none mt-12 text-center sm:text-right'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li>
                       <svg
@@ -98,16 +100,16 @@ export default function AboutFernanda () {
                   </ul>
                 </div>
               </div>
-              <div className='flex-none mt-6 md:mt-0 lg:mt-6'>
+              <div className='flex-none mt-12'>
                 <ul className='inline-grid gap-y-8 gap-x-14 grid-cols-2'>
                   {stats.map((item, idx) => (
                     <li key={idx}>
-                      <h3 className='text-5xl text-white font-bold'>
+                      <h1 className='text-5xl text-white font-bold'>
                         {item.data}
-                      </h3>
-                      <h4 className='mt-3 text-white text-xl font-bold'>
+                      </h1>
+                      <h2 className='mt-3 text-white text-xl font-bold'>
                         {item.title}
-                      </h4>
+                      </h2>
                     </li>
                   ))}
                 </ul>

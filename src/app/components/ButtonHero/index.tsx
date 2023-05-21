@@ -2,6 +2,7 @@ export default function ButtonHero () {
   return (
     <>
       <a
+        aria-label='Saiba mais'
         href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20de%20Direito%20de%20Família.%20Podemos%20conversar%3F%20'
         style={{ textDecoration: 'none' }}
         target='_blank'

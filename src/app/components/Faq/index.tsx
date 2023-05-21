@@ -2,7 +2,7 @@ export default function Faq () {
   return (
     <>
       <div className='bg-rose-950'>
-        <div className='bg-rose-800 rounded-bl-[400px]'>
+        <div className='bg-gradient-to-b from-rose-900 to-rose-950 rounded-bl-[400px]'>
           <section className='py-14'>
             <div className='max-w-screen-lg mx-auto p-8 text-center text-white md:px-8'>
               <div className='max-w-5xl mx-auto'>
@@ -11,7 +11,7 @@ export default function Faq () {
                 </h1>
                 <span className='before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg text-gray-300 font-extrabold mx-auto md:text-4xl before:bg-rose-950 relative inline-block'>
                   <span className='relative text-white'>
-                    as mães, mais perguntam
+                    as mães, mais fazem
                   </span>
                 </span>
               </div>

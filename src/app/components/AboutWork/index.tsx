@@ -12,7 +12,7 @@ import Image from 'next/image'
 export default function AboutWork () {
   return (
     <>
-      <div className='bg-gradient-to-bl from-rose-950 to-white'>
+      <div className='bg-gradient-to-b from-rose-950 to-rose-200'>
         <section className='py-14'>
           <div className='max-w-screen-xl mx-auto px-4 text-center md:px-8'>
             <div className='max-w-5xl mx-auto'>

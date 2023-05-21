@@ -44,8 +44,8 @@ export default function AboutWork () {
                 }}
                 modules={[EffectCube, Pagination, Autoplay]}
               >
-                <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-                  <SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -64,8 +64,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -84,8 +86,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -104,8 +108,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -124,8 +130,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -144,8 +152,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -153,7 +163,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente6.webp'
+                            src='/img/clientes/client6.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -164,8 +174,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -173,7 +185,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente7.webp'
+                            src='/img/clientes/client7.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -184,8 +196,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -193,7 +207,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente8.webp'
+                            src='/img/clientes/client8.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -204,8 +218,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -213,7 +229,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente9.webp'
+                            src='/img/clientes/client9.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -224,8 +240,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -233,7 +251,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente10.webp'
+                            src='/img/clientes/client10.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -244,8 +262,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -253,7 +273,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente11.webp'
+                            src='/img/clientes/client11.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -264,8 +284,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -273,7 +295,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente12.webp'
+                            src='/img/clientes/client12.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -284,8 +306,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -293,7 +317,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente13.webp'
+                            src='/img/clientes/client13.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -304,8 +328,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -313,7 +339,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente14.webp'
+                            src='/img/clientes/client14.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -324,8 +350,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -333,7 +361,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente15.webp'
+                            src='/img/clientes/client15.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -344,8 +372,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -353,7 +383,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente16.webp'
+                            src='/img/clientes/client16.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -364,8 +394,10 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </ul>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
@@ -373,7 +405,7 @@ export default function AboutWork () {
                         </div>
                         <figure>
                           <Image
-                            src='/img/clientes/cliente17.webp'
+                            src='/img/clientes/client17.webp'
                             loading='lazy'
                             width={600}
                             height={600}
@@ -384,8 +416,8 @@ export default function AboutWork () {
                         </figure>
                       </div>
                     </li>
-                  </SwiperSlide>
-                </ul>
+                  </ul>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>

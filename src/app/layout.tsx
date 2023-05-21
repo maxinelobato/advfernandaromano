@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={gruppo.className}>
+    <html lang="en">
       {/* Google Tag Manager - Global base code */}
       <Script
         id="gtag-base"
@@ -35,7 +35,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer', 'GTM-PCQ5JSR');
           `,
         }}></Script>
-      <body className='bg-gradient-to-tr from-rose-400 to-rose-950'>
+      <body className={gruppo.className}>
         {children}
         <noscript>
             <iframe

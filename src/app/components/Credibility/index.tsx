@@ -14,8 +14,8 @@ export default function Credibility(){
 
     return(
         <>
-        <div className="pt-4 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
-            <div className="flex items-center  gap-x-2">
+        <div className="pt-4 flex flex-wrap text-white items-center justify-center gap-4 xl:justify-center">
+            <div className="flex items-center gap-x-2">
                 <CredibilityIcon/>
                 {features.credility}
                 </div>

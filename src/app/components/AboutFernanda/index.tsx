@@ -38,8 +38,8 @@ export default function AboutFernanda () {
                 src='/img/fernandaromano3.webp'
                 width={600}
                 height={600}
-                loading='lazy'
                 quality={100}
+                loading='lazy'
                 className='rounded-xl shadow-xl drop-shadow-xl'
                 alt='About Fernanda'
               />

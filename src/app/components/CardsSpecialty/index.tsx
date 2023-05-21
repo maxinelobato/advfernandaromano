@@ -27,9 +27,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Pensão Alimentícia
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -44,9 +44,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Regulamentação de Guarda e Visitas
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -61,9 +61,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Divórcio
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -78,9 +78,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Reconhecimento de União Estável
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -95,9 +95,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Partilha de Bens
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -112,9 +112,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Visitas Assistidas
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -133,9 +133,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Adoção
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>
@@ -150,9 +150,9 @@ export default function CardsSpecialty () {
                     <div className='w-12 h-12 mx-auto text-white flex items-center justify-center'>
                       <LawIcon />
                     </div>
-                    <h4 className='text-lg sm:text-2xl text-white font-semibold'>
+                    <h1 className='text-lg sm:text-2xl text-white font-semibold'>
                       Revisão da Pensão Alimentícia
-                    </h4>
+                    </h1>
                     <div className='w-12 h-12 mx-auto text-stone-300 flex items-center justify-center'>
                       <ButtonSmall />
                     </div>

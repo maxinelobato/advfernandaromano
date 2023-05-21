@@ -20,6 +20,7 @@ export default function CardsSpecialty () {
               <ul className='mx-auto grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-3'>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -36,6 +37,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Regulamentação%20de%20Guarda%20e%20Visitas.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -52,6 +54,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20%20meu%20Divórcio.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -68,6 +71,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Reconhecimento%20de%20União%20Estável.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -84,6 +88,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Partilha%20de%20Bens.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -100,6 +105,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Visitas%20Assistidas.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -120,6 +126,7 @@ export default function CardsSpecialty () {
               <ul className='mx-auto grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-2'>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Adoção.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
@@ -136,6 +143,7 @@ export default function CardsSpecialty () {
                 </li>
                 <li className='card group justify-center bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg hover:bg-rose-950/30 hover:ring-2 hover:ring-white hover:transition-all hover:ease-out hover:duration-300'>
                   <a
+                    aria-label='Saiba mais'
                     href='https://api.whatsapp.com/send?phone=5551980187011&text=Ol%C3%A1%2C%20Dra.%20Fernanda!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20em%20Revisão%20da%20Pensão%20Alimentícia.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >

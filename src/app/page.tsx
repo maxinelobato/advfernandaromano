@@ -5,16 +5,19 @@ import AboutFernanda from './components/AboutFernanda'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import ButtonFloat from './components/ButtonFloat'
+import { Suspense } from 'react'
 export default function Home () {
   return (
     <>
-      <Hero />
-      <CardsSpecialty />
-      <AboutWork />
-      <AboutFernanda />
-      <Faq />
-      <Footer />
-      <ButtonFloat />
+      <Suspense>
+        <Hero />
+        <CardsSpecialty />
+        <AboutWork />
+        <AboutFernanda />
+        <Faq />
+        <Footer />
+        <ButtonFloat />
+      </Suspense>
     </>
   )
 }

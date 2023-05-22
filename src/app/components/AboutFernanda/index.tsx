@@ -39,8 +39,8 @@ export default function AboutFernanda () {
               <Image
                 src='/img/fernandaromanoblack.webp'
                 width={400}
-                height={400}
-                loading='lazy'
+                height={300}
+                priority
                 className='rounded-xl shadow-xl drop-shadow-xl'
                 alt='About Fernanda'
               />

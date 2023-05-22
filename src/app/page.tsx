@@ -12,10 +12,14 @@ export default function Home () {
       <Suspense>
         <Hero />
         <CardsSpecialty />
-        <AboutWork />
+        <Suspense>
+          <AboutWork />
+        </Suspense>
         <AboutFernanda />
-        <Faq />
-        <Footer />
+        <Suspense>
+          <Faq />
+          <Footer />
+        </Suspense>
         <ButtonFloat />
       </Suspense>
     </>

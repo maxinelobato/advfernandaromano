@@ -1,12 +1,11 @@
 'use client'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, EffectCube, Navigation } from 'swiper'
+import { Pagination, EffectCube, Autoplay } from 'swiper'
 
 import 'swiper/css'
 import 'swiper/css/effect-cube'
 import 'swiper/css/pagination'
-import 'swiper/css/navigation'
 
 import QuotesIcon from '../icons/quotesicon'
 import Image from 'next/image'
@@ -35,11 +34,14 @@ export default function AboutWork () {
                   slideShadows: true,
                   shadowOffset: 20,
                 }}
-                navigation={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false
+                }}
                 pagination={{
                   clickable: true
                 }}
-                modules={[EffectCube, Pagination, Navigation]}
+                modules={[EffectCube, Pagination, Autoplay]}
               >
                 <SwiperSlide>
                   <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>

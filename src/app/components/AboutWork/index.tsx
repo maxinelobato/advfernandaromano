@@ -32,7 +32,7 @@ export default function AboutWork () {
                 cubeEffect={{
                   shadow: true,
                   slideShadows: true,
-                  shadowOffset: 20,
+                  shadowOffset: 20
                 }}
                 autoplay={{
                   delay: 2500,

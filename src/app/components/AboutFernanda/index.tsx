@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { Caveat } from 'next/font/google'
 import Image from 'next/image'
@@ -40,7 +40,7 @@ export default function AboutFernanda () {
                 src='/img/fernandaromanoblack.webp'
                 width={400}
                 height={300}
-                priority
+                loading='lazy'
                 className='rounded-xl shadow-xl drop-shadow-xl'
                 alt='About Fernanda'
               />

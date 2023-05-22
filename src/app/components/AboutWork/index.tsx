@@ -30,10 +30,11 @@ export default function AboutWork () {
               <Swiper
                 effect={'cube'}
                 grabCursor={true}
+                loop={true}
+                slidesPerView={3}
+                spaceBetween={30}
                 cubeEffect={{
-                  shadow: true,
-                  slideShadows: true,
-                  shadowOffset: 20
+                  slideShadows: true
                 }}
                 pagination={{
                   clickable: true

@@ -4,7 +4,7 @@
 
 :root {
   --swiper-pagination-color: #ffff;
-  --swiper-navigation-color: #000;
+  --swiper-navigation-color: #4c0519;
   --swiper-pagination-bullet-size: 10px;
   --swiper-pagination-bullet-width: 10px;
   --swiper-pagination-bullet-height: 10px;
@@ -31,41 +31,9 @@
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: #fda4af;
+  background-color: rgb(76, 5, 25, 0.3);
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: #fb7185;
-}
-
-.swiper-slide:nth-child(3n) {
-  background-color: #f43f5e;
-}
-
-.swiper-slide:nth-child(4n) {
-  background-color: #e11d48;
-}
-
-.swiper-slide:nth-child(5n) {
-  background-color: #be123c;
-}
-
-.swiper-slide:nth-child(6n) {
-  background-color: #9f1239;
-}
-
-.swiper-slide:nth-child(7n) {
-  background-color: #881337;
-}
-
-.swiper-slide:nth-child(8n) {
-  background-color: #4c0519;
-}
-
-.swiper-slide:nth-child(9n) {
-  background-color: #fda4af;
-}
-
-.swiper-slide:nth-child(10n) {
-  background-color: #fb7185;
+  background-color: rgb(76, 5, 25, 0.3);
 }

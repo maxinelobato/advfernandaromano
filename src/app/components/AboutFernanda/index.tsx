@@ -94,7 +94,7 @@ export default function AboutFernanda () {
                 <div className='flex-none text-right'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li className={caveat.className}>
-                      <p className='text-xl drop-shadow-lg text-white font-extrabold mx-auto'>
+                      <p className='text-3xl drop-shadow-lg text-white font-extrabold mx-auto'>
                         Com passos pequenos e firmes
                       </p>
                     </li>

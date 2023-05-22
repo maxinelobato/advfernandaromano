@@ -54,10 +54,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente1.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -78,10 +78,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente2.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -102,10 +102,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente3.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -126,10 +126,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente4.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -150,10 +150,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente5.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -174,10 +174,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente6.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -198,10 +198,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente7.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -222,10 +222,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente8.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -246,10 +246,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente9.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -270,10 +270,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente10.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -294,10 +294,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente11.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -318,10 +318,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente12.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -342,10 +342,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente13.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -366,10 +366,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente14.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -390,10 +390,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente15.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -414,10 +414,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente16.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>
@@ -438,10 +438,10 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente17.webp'
                             loading='lazy'
-                            width={600}
-                            height={600}
+                            width={500}
+                            height={500}
                             alt='Imagens'
-                            className='w-full rounded-xl'
+                            className='w-[20rem] rounded-xl'
                           />
                         </figure>
                       </div>

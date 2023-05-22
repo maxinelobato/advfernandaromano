@@ -2,8 +2,8 @@ export default function Faq () {
   return (
     <>
       <div className='bg-rose-950'>
-        <div className='bg-gradient-to-b from-rose-900 to-rose-950 rounded-bl-[400px]'>
-          <section className='py-14'>
+        <div className='bg-gradient-to-b drop-shadow-2xl from-rose-900 to-rose-950 rounded-bl-[400px]'>
+          <section className='-pt-10'>
             <div className='max-w-screen-lg mx-auto p-8 text-center text-white md:px-8'>
               <div className='max-w-5xl mx-auto'>
                 <h1 className='text-4xl drop-shadow-lg text-white font-extrabold mx-auto md:text-5xl mb-4'>

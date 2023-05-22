@@ -38,9 +38,8 @@ export default function AboutFernanda () {
             <div className='sm:hidden lg:block lg:max-w-xl'>
               <Image
                 src='/img/fernandaromanoblack.webp'
-                width={600}
-                height={600}
-                quality={100}
+                width={400}
+                height={400}
                 loading='lazy'
                 className='rounded-xl shadow-xl drop-shadow-xl'
                 alt='About Fernanda'
@@ -48,36 +47,36 @@ export default function AboutFernanda () {
             </div>
             <div className='mt-6 gap-12 sm:mt-0 md:flex lg:block'>
               <div className='max-w-2xl'>
-                <h1 className='text-4xl drop-shadow-lg text-rose-950 font-extrabold mx-auto md:text-5xl mb-4'>
+                <h1 className='text-4xl text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto md:text-5xl mb-4'>
                   A FR Advocacia atende
                 </h1>
-                <span className='before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg font-extrabold mx-auto md:text-4xl before:bg-rose-950 relative inline-block'>
+                <span className='text-center before:block before:rounded-xl before:absolute before:-inset-1 before:-skew-y-0 p-2 text-2xl drop-shadow-lg font-extrabold mx-auto md:text-4xl before:bg-rose-950 relative inline-block'>
                   <span className='relative text-white'>
                     em todo o Brasil e Exterior de forma totalmente Online!
                   </span>
                 </span>
-                <p className='text-lg text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto mt-6'>
+                <p className='text-2xl text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto mt-6'>
                   Através de um atendimento humanizado e especializado no{' '}
-                  <span className='text-rose-950 text-xl uppercase font-bold'>
+                  <span className='text-2xl underline decoration-white/40'>
                     Direito das Famílias e Direito para Mulheres!
                   </span>
                 </p>
-                <p className='text-lg text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto'>
+                <p className='text-2xl text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto'>
                   Na nossa equipe, a força vem das{' '}
-                  <span className='text-rose-950 text-xl uppercase font-bold'>
+                  <span className='text-2xl underline decoration-white/40'>
                     mulheres!
                   </span>
                 </p>
-                <p className='text-lg text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto'>
+                <p className='text-2xl text-center drop-shadow-lg text-rose-950 font-extrabold mx-auto'>
                   Com dedicação e conhecimento jurídico,{' '}
-                  <span className='text-rose-950 text-xl uppercase font-bold'>
+                  <span className='text-2xl underline decoration-white/40'>
                     buscamos sempre o melhor
                   </span>{' '}
                   resultado para cada processo e situação judicial, visando a
                   satisfação dos nossos clientes em resolver seus conflitos
                   através da lei.
                 </p>
-                <div className='flex-none mt-12 text-center sm:text-right md:text-center'>
+                <div className='flex-none mt-6 text-right'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li>
                       <svg
@@ -92,7 +91,7 @@ export default function AboutFernanda () {
                     </li>
                   </ul>
                 </div>
-                <div className='flex-none text-center sm:text-right md:text-center'>
+                <div className='flex-none text-right'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li className={caveat.className}>
                       <p className='text-xl drop-shadow-lg text-white font-extrabold mx-auto'>
@@ -102,10 +101,17 @@ export default function AboutFernanda () {
                   </ul>
                 </div>
               </div>
-              <div className='flex-none mt-12'>
-                <ul className='inline-grid gap-y-8 gap-x-14 grid-cols-1 md:grid-cols-2'>
+            </div>
+          </div>
+          <div className='flex-1'>
+            <div className='py-14'>
+              <div className='max-w-screen-xl mx-auto px-4 text-center md:px-8'>
+                <ul className='mx-auto grid gap-y-6 gap-x-4 sm:grid-cols-2 lg:grid-cols-4'>
                   {stats.map((item, idx) => (
-                    <li key={idx}>
+                    <li
+                      key={idx}
+                      className='card group justify-start bg-rose-300/25 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg'
+                    >
                       <h1 className='text-5xl text-white font-bold'>
                         {item.data}
                       </h1>

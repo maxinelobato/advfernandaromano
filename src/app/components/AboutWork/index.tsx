@@ -55,7 +55,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -77,7 +76,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -99,7 +97,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -121,7 +118,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -143,7 +139,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -165,7 +160,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -187,7 +181,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -209,7 +202,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -231,7 +223,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -253,7 +244,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -275,7 +265,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -297,7 +286,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -319,7 +307,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -341,7 +328,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -363,7 +349,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -385,7 +370,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -407,7 +391,6 @@ export default function AboutWork () {
                             loading='lazy'
                             width={300}
                             height={300}
-                            quality={75}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />

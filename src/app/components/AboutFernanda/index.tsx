@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { Caveat } from 'next/font/google'
 import Image from 'next/image'

@@ -35,7 +35,7 @@ export default function AboutFernanda () {
           <div className='max-w-screen-xl mx-auto px-4 text-white text-center sm:text-left text-2xl font-bold gap-x-12 items-start justify-between lg:flex md:px-8'>
             <div className='sm:hidden lg:block lg:max-w-xl'>
               <Image
-                src='/img/fernandaromano3.webp'
+                src='/img/fernandaromanoblack.webp'
                 width={600}
                 height={600}
                 quality={100}

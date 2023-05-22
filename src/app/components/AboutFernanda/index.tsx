@@ -1,3 +1,5 @@
+'use client'
+
 import { Caveat } from 'next/font/google'
 import Image from 'next/image'
 
@@ -75,7 +77,7 @@ export default function AboutFernanda () {
                   satisfação dos nossos clientes em resolver seus conflitos
                   através da lei.
                 </p>
-                <div className='flex-none mt-12 text-center sm:text-right'>
+                <div className='flex-none mt-12 text-center sm:text-right md:text-center'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li>
                       <svg
@@ -90,7 +92,7 @@ export default function AboutFernanda () {
                     </li>
                   </ul>
                 </div>
-                <div className='flex-none text-center sm:text-right'>
+                <div className='flex-none text-center sm:text-right md:text-center'>
                   <ul className='inline-grid gap-y-4 gap-x-7 grid-cols-1'>
                     <li className={caveat.className}>
                       <p className='text-xl drop-shadow-lg text-white font-extrabold mx-auto'>
@@ -101,7 +103,7 @@ export default function AboutFernanda () {
                 </div>
               </div>
               <div className='flex-none mt-12'>
-                <ul className='inline-grid gap-y-8 gap-x-14 grid-cols-2'>
+                <ul className='inline-grid gap-y-8 gap-x-14 grid-cols-1 md:grid-cols-2'>
                   {stats.map((item, idx) => (
                     <li key={idx}>
                       <h1 className='text-5xl text-white font-bold'>

@@ -4,7 +4,7 @@ import { Navbar } from '../Navbar'
 export default function Hero () {
   return (
     <>
-      <div className="hero min-h-min bg-[url('/img/fernandaromano2.webp')] md:bg-[url('/img/fernandaromano.webp')] loading">
+      <div className="hero min-h-min bg-[url('/img/fernandaromano2.webp')] sm:bg-[url('/img/fernandaromano2.webp')] md:bg-[url('/img/fernandaromano.webp')] loading">
         <div className='hero-overlay bg-gradient-to-r from-rose-950 from-5% bg-opacity-0'>
           <section className='py-16 mt-32'>
             <div className='max-w-screen-xl mx-auto px-4 gap-x-12 justify-between md:flex md:px-8'>

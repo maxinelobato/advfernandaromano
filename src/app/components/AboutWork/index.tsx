@@ -9,6 +9,7 @@ import 'swiper/css/pagination'
 
 import QuotesIcon from '../icons/quotesicon'
 import Image from 'next/image'
+import HandTapIcon from '../icons/handtapicon'
 export default function AboutWork () {
   return (
     <>
@@ -35,7 +36,7 @@ export default function AboutWork () {
                 cubeEffect={{
                   shadow: true,
                   slideShadows: true,
-                  shadowOffset: 20,
+                  shadowOffset: 20
                 }}
                 modules={[EffectCube, Pagination]}
               >
@@ -44,7 +45,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -65,7 +69,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -86,7 +93,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -107,7 +117,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -128,7 +141,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -149,7 +165,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -170,7 +189,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -191,7 +213,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -212,7 +237,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -233,7 +261,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -254,7 +285,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -275,7 +309,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -296,7 +333,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -317,7 +357,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -338,7 +381,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -359,7 +405,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image
@@ -380,7 +429,10 @@ export default function AboutWork () {
                     <li className='space-y-3 mx-auto p-4 rounded-xl'>
                       <div className='card w-72 space-y-0 p-2 pb-10'>
                         <div className='pb-4'>
-                          <QuotesIcon />
+                          <div className='flex items-center justify-between'>
+                            <QuotesIcon />
+                            <HandTapIcon />
+                          </div>
                         </div>
                         <figure>
                           <Image

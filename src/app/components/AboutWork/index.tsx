@@ -1,12 +1,11 @@
 'use client'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, EffectCube, Navigation } from 'swiper'
+import { Pagination, EffectCube } from 'swiper'
 
 import 'swiper/css'
 import 'swiper/css/effect-cube'
 import 'swiper/css/pagination'
-import 'swiper/css/navigation'
 
 import QuotesIcon from '../icons/quotesicon'
 import Image from 'next/image'
@@ -30,17 +29,15 @@ export default function AboutWork () {
               <Swiper
                 effect={'cube'}
                 grabCursor={true}
-                loop={true}
-                slidesPerView={3}
-                spaceBetween={30}
-                cubeEffect={{
-                  slideShadows: true
-                }}
                 pagination={{
                   clickable: true
                 }}
-                navigation={true}
-                modules={[EffectCube, Pagination, Navigation]}
+                cubeEffect={{
+                  shadow: true,
+                  slideShadows: true,
+                  shadowOffset: 20,
+                }}
+                modules={[EffectCube, Pagination]}
               >
                 <SwiperSlide>
                   <ul className='grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3'>
@@ -53,8 +50,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente1.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -74,8 +71,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente2.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -95,8 +92,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente3.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -116,8 +113,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente4.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -137,8 +134,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente5.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -158,8 +155,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente6.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -179,8 +176,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente7.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -200,8 +197,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente8.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -221,8 +218,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente9.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -242,8 +239,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente10.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -263,8 +260,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente11.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -284,8 +281,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente12.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -305,8 +302,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente13.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -326,8 +323,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente14.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -347,8 +344,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente15.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -368,8 +365,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente16.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />
@@ -389,8 +386,8 @@ export default function AboutWork () {
                           <Image
                             src='/img/clientes/cliente17.webp'
                             loading='lazy'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                             alt='Imagens'
                             className='w-full rounded-xl'
                           />

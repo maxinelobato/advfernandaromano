@@ -33,7 +33,3 @@
 .swiper-slide:nth-child(1n) {
   background-color: rgb(76, 5, 25, 0.3);
 }
-
-.swiper-slide:nth-child(2n) {
-  background-color: rgb(76, 5, 25, 0.3);
-}

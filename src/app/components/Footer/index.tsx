@@ -64,10 +64,10 @@ export default function Footer () {
               <div className='stats shadow bg-black/30 backdrop-blur-sm'>
                 <div className='stat'>
                   <div className='stat-title font-bold text-white text-lg'>
-                    OAB
+                    OAB/RS
                   </div>
                   <div className='stat-value font-medium text-white text-2xl'>
-                    119723
+                    11.9723
                   </div>
                 </div>
               </div>

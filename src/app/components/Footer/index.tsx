@@ -67,7 +67,7 @@ export default function Footer () {
                     OAB/RS
                   </div>
                   <div className='stat-value font-medium text-white text-2xl'>
-                    11.9723
+                    119.723
                   </div>
                 </div>
               </div>

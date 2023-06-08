@@ -51,7 +51,7 @@ export default function Faq () {
                     já dar?
                   </summary>
                   <div className='p-4 mt-3 text-lg text-white'>
-                    <p>Pesgunta 4</p>
+                    <p>O seu ex não precisa aceitar o divórcio, pode o Juiz direto dar!</p>
                   </div>
                 </details>
                 <details className='mt-2 text-left backdrop-blur-sm bg-rose-300/5 rounded-xl ring-1 ring-slate-900/5 shadow-lg hover:bg-rose-950/30 hover:transition-all hover:ease-out hover:duration-300 hover:ring-2 hover:ring-white open:ring-1 open:ring-black/5 open:shadow-lg p-4'>

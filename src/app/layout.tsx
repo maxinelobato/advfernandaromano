@@ -34,7 +34,7 @@ export default function RootLayout ({
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer', 'GTM-K9P3JC8');
+            })(window,document,'script','dataLayer', 'GTM-PCQ5JSR');
           `
           }}
         ></Script>
@@ -46,7 +46,7 @@ export default function RootLayout ({
         <Suspense>
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=GTM-K9P3JC8`}
+              src={`https://www.googletagmanager.com/ns.html?id=GTM-PCQ5JSR`}
               height='0'
               width='0'
               style={{ display: 'none', visibility: 'hidden' }}

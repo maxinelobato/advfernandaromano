@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import logoLB from '../../../../public/lb.org-branca.png'
+import logoFR from '../../../../public/img/logonavbarbranca.svg'
 
 export default function Footer () {
   const contactMethods = [
@@ -39,7 +41,7 @@ export default function Footer () {
             <div className='space-y-6 text-center max-w-screen-xl mx-auto sm:max-w-lg sm:mx-auto sm:text-center'>
               <a href='#'>
                 <Image
-                  src='/img/logonavbarbranca.svg'
+                  src={logoFR}
                   quality={75}
                   loading='lazy'
                   width={100}
@@ -82,8 +84,8 @@ export default function Footer () {
                 <li className='text-gray-400 mb-2'>Desenvolvido por</li>
                 <li>
                   <Image
-                    src='/signaturemidia.svg'
-                    alt='Logo Signature'
+                  src={logoLB}
+                    alt='Logo LB'
                     width={60}
                     height={60}
                     quality={75}
